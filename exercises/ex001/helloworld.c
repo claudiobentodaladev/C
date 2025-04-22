@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Hello world!");//peintf is used to print any value
+    printf("Hello world!");//printf is used to print any value
     return 0;
 }
