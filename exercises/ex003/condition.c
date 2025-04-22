@@ -6,13 +6,13 @@ int main()
     
     printf("How old are you:\n");
     scanf("%d", &yearsold);
-    /*if/else is uses for do condition*/
-    if(yearsold>=18)
-    {
+    // if/else is used to do condition
+    if(yearsold>=18){
+        // whether true run this code block
         printf("You are adult");
     }
-    else
-    {
+    else{
+        // whether not true run this code block
         printf("You are not adult");
     }
     return 0;
