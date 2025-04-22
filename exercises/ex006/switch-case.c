@@ -1,17 +1,17 @@
 #include<stdio.h>
 
-int main()
-{
+int main(){
     int day;
     
     printf("Input the number day:\n");
     scanf("%d", &day);
+
     while(day >= 7){
     printf("Repeat it again:\n");
     scanf("%d", &day);
     }
     
-    
+    // switch..case is used to fixed conditions
     switch(day){
         case 1:
             printf("Sunday\n");
