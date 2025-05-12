@@ -21,5 +21,8 @@ int main(){
 	
 	printf("fahrenheit: %.1f\n", fahrenheit(celcius_valor));
 	printf("kelvin: %.1f \n", kelvin(celcius_valor));
+	
+	printf("===PROGRAMA TERMINADO===\n");
+	
 	return 0;
 }
