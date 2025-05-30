@@ -14,7 +14,7 @@ int main(){
 	printf("\n");
 	media /= 6;
 	
-	printf("A media: %f ", media);
+	printf("A media: %f ", media); 
 	
 	return 0;
 }
