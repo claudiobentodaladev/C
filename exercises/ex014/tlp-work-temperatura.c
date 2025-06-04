@@ -15,7 +15,7 @@ int main(){
 	
 	float celcius_valor = 0.0,kelvin_,fahrenheit_;
 	
-	printf("Celcius: \n");
+	printf("Celcius: ");
 	scanf("%f", &celcius_valor);
 	
 	printf("fahrenheit: %.1f\n", fahrenheit(celcius_valor));
