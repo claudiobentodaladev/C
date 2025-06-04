@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 float fahrenheit(float celcius){
 	float fahrenheit = 32;
