@@ -18,7 +18,7 @@ int main()
     
     printf("Output number: %d \n", number);
     printf("Output string: %s \n", string);
-    printf("Output float number %.2f", numberfloat);
+    printf("Output float number %.2f\n", numberfloat);
     
     return 0;
 }
