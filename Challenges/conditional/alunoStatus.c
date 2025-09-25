@@ -8,6 +8,12 @@ int main()
     printf("Informe sua média:\n");
     scanf("%f", &media);
 
+    while (media >= 20 && media <= 0)
+    {
+        printf("Informe sua média:\n");
+        scanf("%f", &media);
+    }
+
     if (media >= 10)
     {
         printf("Media %.2f você está Aprovado", media);
