@@ -1,2 +1,5 @@
 # Do not show
 .vscode/
+
+test/test.c
+test/test
