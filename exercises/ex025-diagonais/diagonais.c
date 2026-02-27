@@ -23,6 +23,15 @@ void inserir(){
     }
 }
 
+void mostrar(int L,int C){
+    
+    if(valores[L][C] > 0){
+        printf("Positivo[%i][%i]: %i \t", L, C, valores[L][C]);
+    } else{
+        printf("Negativo[%i][%i]: %i \t", L, C, valores[L][C]);
+    }
+}
+
 void diagonalPrincipal(){
 
     printf("====== DIAGONAL PRINCIPAL ====== \n");
@@ -31,13 +40,7 @@ void diagonalPrincipal(){
         for(int c = 0; c < 4; c++){
     
             if(l == c){
-    
-                if(valores[l][c] > 0){
-                    printf("Positivo[%i][%i]: %i \t", l, c, valores[l][c]);
-                } else{
-                    printf("Negativo[%i][%i]: %i \t", l, c, valores[l][c]);
-                }
-    
+                mostrar(l,c);
             }
     
         }
@@ -53,14 +56,8 @@ void diagonalSecundaria(){
     for(int l = 0; l < 4; l++){
         for(int c = 0; c < 4; c++){
     
-            if(l == c - 3 || c == l - 3 || (l == 1 && c == 1)){
-    
-                if(valores[l][c] > 0){
-                    printf("Positivo[%i][%i]: %i \t", l, c, valores[l][c]);
-                } else{
-                    printf("Negativo[%i][%i]: %i \t", l, c, valores[l][c]);
-                }
-    
+            if((l == 2 && c == 2) || l == c - 3 || (l == 1 && l == c - 1) || c == l - 3){
+                mostrar(l,c);
             }
     
         }
