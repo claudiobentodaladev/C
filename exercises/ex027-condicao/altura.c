@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
 
     float altura = 0.00;
 
     printf("Informe sua altura:\n");
     scanf("%f", &altura);
 
-    if (altura >= 1.70)
-    {
+    if (altura >= 1.70){
         printf("altura %.2f você é alto", altura);
-    }
-    else
-    {
+    } else {
         printf("altura %.2f você é baixo", altura);
     }
 
